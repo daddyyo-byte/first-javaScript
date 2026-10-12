@@ -106,3 +106,27 @@ const SecondMessage = customerName.concat(" booked ", ticketCount, " tickets for
 console.log(bookingMessage);
 
 console.log(SecondMessage);
+
+//class task 2
+
+const name1 = "ochacho money";
+const age1 = 18;
+const course = "fullstack";
+const Intro = `Hi, i'm ${name1} and i'm ${age1}. I have got news guys, i'm studying ${course} at TechStudio`;
+
+console.log(Intro)
+
+// 3. Create productName, price, and quantity.
+
+const productName = "Aquarite";
+const price = 200.00;
+const quantity = 4;
+
+console.log(`${productName} is ${price} multiplied by ${quantity} which is 400.00 as the total cost.`);
+console.log(`Welcome ${name1}`)
+
+
+
+
+
+
