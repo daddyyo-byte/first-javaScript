@@ -122,7 +122,7 @@ const productName = "Aquarite";
 const price = 200.00;
 const quantity = 4;
 
-console.log(`${productName} is ${price} multiplied by ${quantity} which is 400.00 as the total cost.`);
+console.log(`${productName} is ${price} multiplied by ${quantity} which is ${price * quantity}.`);
 console.log(`Welcome ${name1}`)
 
 
