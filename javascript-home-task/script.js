@@ -14,7 +14,7 @@ const budget = 10000;
 
 //Convert ticketPrice to a number and calculate the total cost.
 
-const total = Number(ticketPrice) + ticketCount + budget;
+const total = Number(ticketPrice) * ticketCount;
 console.log(total);
 console.log(total.toFixed(2));
 
@@ -61,14 +61,14 @@ else{
 
 // 5
 
-let distance = 0;
+let distance = 10;
 
-if (distance >= 0 && distance <= 5){
+if(distance < 0 || distance > 15){
+    console.log("Delivery Unavailable")
+}
+else if(distance >= 0 && distance <= 5){
     console.log(`Delivery: ₦500`);
 }
-else if(distance > 5 && distance <= 15){
-    console.log(`Delivery: ₦1000`);
-}
 else{
-    console.log(`Delivery: Unavailable`);
+    console.log(`Delivery: ₦1000`);
 }
