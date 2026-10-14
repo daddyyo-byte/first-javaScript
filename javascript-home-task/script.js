@@ -61,12 +61,12 @@ else{
 
 // 5
 
-let distance = 35;
+let distance = 0;
 
 if (distance >= 0 && distance <= 5){
     console.log(`Delivery: ₦500`);
 }
-else if(distance >= 6 && distance <= 15){
+else if(distance > 5 && distance <= 15){
     console.log(`Delivery: ₦1000`);
 }
 else{
