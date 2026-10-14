@@ -2,7 +2,7 @@
 
 let batteryLevel = 80;
 
-if(batteryLevel <= 20){
+if(batteryLevel < 20){
     console.log("Low battery! Please charge your device");
 }
 
